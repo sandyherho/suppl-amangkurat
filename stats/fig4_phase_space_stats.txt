@@ -1,0 +1,63 @@
+FIGURE 4: PHASE SPACE ANALYSIS
+======================================================================
+
+Global limits:
+  φ(x=0,t): [-3.0420, 4.0115]
+  ∂ₜφ(x=0,t): [-3.6283, 3.8190]
+
+Case 1: Linear Wave
+  Field φ(x=0, t):
+    Mean: 0.0060
+    Std: 0.2852
+    Range: [-0.8039, 0.9991]
+    RMS: 0.2853
+  Derivative ∂ₜφ(x=0, t):
+    Mean: -0.0166
+    Std: 0.2870
+    Range: [-1.0448, 0.7151]
+    RMS: 0.2875
+  Correlation: ρ = -0.1196
+  Interpretation: Dispersive wave trajectory in phase space.
+
+Case 2: Kink Soliton
+  Field φ(x=0, t):
+    Mean: 0.0332
+    Std: 0.0195
+    Range: [-0.2374, 0.0717]
+    RMS: 0.0385
+  Derivative ∂ₜφ(x=0, t):
+    Mean: -0.0083
+    Std: 0.0915
+    Range: [-1.2084, 0.1019]
+    RMS: 0.0919
+  Correlation: ρ = 0.8534
+  Interpretation: Near-stationary point (static soliton).
+
+Case 3: Breather
+  Field φ(x=0, t):
+    Mean: 0.0183
+    Std: 0.6823
+    Range: [-2.4542, 3.4237]
+    RMS: 0.6825
+  Derivative ∂ₜφ(x=0, t):
+    Mean: -0.0421
+    Std: 0.4679
+    Range: [-2.4933, 1.5791]
+    RMS: 0.4698
+  Correlation: ρ = -0.2225
+  Interpretation: Closed orbit (periodic breather dynamics).
+
+Case 4: Collision
+  Field φ(x=0, t):
+    Mean: -0.5644
+    Std: 0.7626
+    Range: [-1.8970, 2.0000]
+    RMS: 0.9487
+  Derivative ∂ₜφ(x=0, t):
+    Mean: -0.0202
+    Std: 0.8310
+    Range: [-3.0077, 3.1984]
+    RMS: 0.8312
+  Correlation: ρ = -0.0517
+  Interpretation: Complex trajectory from collision events.
+

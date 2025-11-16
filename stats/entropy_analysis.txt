@@ -1,0 +1,200 @@
+ENTROPY ANALYSIS: SHANNON, RÉNYI, TSALLIS, COMPOSITE
+======================================================================
+
+Case 1: Linear Wave
+  Time range: t ∈ [0.00, 50.00]
+
+  Shannon Entropy S:
+    Mean: 26.6120
+    Std: 5.7666
+    Range: [11.1733, 33.0582]
+    Initial: 12.0846
+    Final: 32.0425
+
+  Rényi Entropy H₀.₅:
+    Mean: 7.5654
+    Range: [5.8961, 8.2315]
+
+  Rényi Entropy H₂ (Collision):
+    Mean: 0.8306
+    Std: 0.6832
+    Range: [-1.0357, 1.6353]
+
+  Rényi Entropy H₁₀ (approx H_∞):
+    Mean: 2.4796
+    Range: [0.5853, 3.3629]
+
+  Tsallis Entropy S₀.₅:
+    Mean: 90.0673
+    Range: [36.1381, 120.5986]
+
+  Tsallis Entropy S₂:
+    Mean: 0.4250
+    Std: 0.5263
+    Range: [-1.8170, 0.8051]
+
+  Composite Entropy C = 0.5*S + 0.3*H₂ + 0.2*S₂:
+    Mean: 13.6402
+    Std: 3.1868
+    Range: [4.9126, 17.1807]
+    Initial: 5.4989
+    Final: 16.6159
+
+  Interpretation: Linear wave: moderate, stable entropy.
+
+----------------------------------------------------------------------
+
+Case 2: Kink Soliton
+  Time range: t ∈ [0.00, 50.00]
+
+  Shannon Entropy S:
+    Mean: 46.5515
+    Std: 0.1481
+    Range: [46.1792, 47.0037]
+    Initial: 47.0037
+    Final: 46.4859
+
+  Rényi Entropy H₀.₅:
+    Mean: 9.2183
+    Range: [9.1859, 9.2469]
+
+  Rényi Entropy H₂ (Collision):
+    Mean: 2.2038
+    Std: 0.0165
+    Range: [2.1733, 2.2599]
+
+  Rényi Entropy H₁₀ (approx H_∞):
+    Mean: 4.1630
+    Range: [4.0993, 4.3217]
+
+  Tsallis Entropy S₀.₅:
+    Mean: 198.8044
+    Range: [195.5732, 201.6913]
+
+  Tsallis Entropy S₂:
+    Mean: 0.8896
+    Std: 0.0018
+    Range: [0.8862, 0.8956]
+
+  Composite Entropy C = 0.5*S + 0.3*H₂ + 0.2*S₂:
+    Mean: 24.1148
+    Std: 0.0791
+    Range: [23.9194, 24.3589]
+    Initial: 24.3589
+    Final: 24.0790
+
+  Interpretation: Kink: low entropy (highly coherent structure).
+
+----------------------------------------------------------------------
+
+Case 3: Breather
+  Time range: t ∈ [0.00, 80.00]
+
+  Shannon Entropy S:
+    Mean: 11.2070
+    Std: 1.2233
+    Range: [8.9408, 16.3847]
+    Initial: 10.0739
+    Final: 11.1082
+
+  Rényi Entropy H₀.₅:
+    Mean: 5.9617
+    Range: [5.3884, 6.9398]
+
+  Rényi Entropy H₂ (Collision):
+    Mean: -0.3407
+    Std: 0.1486
+    Range: [-0.6424, 0.3365]
+
+  Rényi Entropy H₁₀ (approx H_∞):
+    Mean: 1.0427
+    Range: [0.7719, 1.6781]
+
+  Tsallis Entropy S₀.₅:
+    Mean: 37.8280
+    Range: [27.5867, 62.2681]
+
+  Tsallis Entropy S₂:
+    Mean: -0.4198
+    Std: 0.1802
+    Range: [-0.9010, 0.2857]
+
+  Composite Entropy C = 0.5*S + 0.3*H₂ + 0.2*S₂:
+    Mean: 5.4173
+    Std: 0.6884
+    Range: [4.0975, 8.3504]
+    Initial: 4.7809
+    Final: 5.3852
+
+  Interpretation: Breather: periodic entropy oscillations.
+
+----------------------------------------------------------------------
+
+Case 4: Collision
+  Time range: t ∈ [0.00, 100.00]
+
+  Shannon Entropy S:
+    Mean: 42.0323
+    Std: 4.1578
+    Range: [21.4793, 45.4605]
+    Initial: 30.8864
+    Final: 44.3962
+
+  Rényi Entropy H₀.₅:
+    Mean: 8.8712
+    Range: [7.1755, 9.1534]
+
+  Rényi Entropy H₂ (Collision):
+    Mean: 1.6422
+    Std: 0.4288
+    Range: [-0.5082, 2.0300]
+
+  Rényi Entropy H₁₀ (approx H_∞):
+    Mean: 3.2809
+    Range: [1.1882, 3.8611]
+
+  Tsallis Entropy S₀.₅:
+    Mean: 169.5361
+    Range: [70.3047, 192.3900]
+
+  Tsallis Entropy S₂:
+    Mean: 0.7827
+    Std: 0.1392
+    Range: [-0.6623, 0.8687]
+
+  Composite Entropy C = 0.5*S + 0.3*H₂ + 0.2*S₂:
+    Mean: 21.6653
+    Std: 2.2332
+    Range: [10.4548, 23.5106]
+    Initial: 15.7389
+    Final: 22.9204
+
+  Interpretation: Collision: complex entropy dynamics.
+
+----------------------------------------------------------------------
+
+COMPARATIVE SUMMARY:
+
+Shannon Entropy (S):
+  Quantifies spatial information spread.
+  Higher S → more delocalized field.
+
+Rényi Entropies (H_α):
+  H₀.₅: emphasizes rare events
+  H₂: focuses on high-probability regions (collision entropy)
+  H₁₀: approximates min-entropy (maximum probability)
+
+Tsallis Entropies (S_q):
+  Capture non-extensive statistics.
+  Useful for systems with long-range correlations.
+
+Composite Entropy (C):
+  Weighted combination: C = 0.5*S + 0.3*H₂ + 0.2*S₂
+  Balances spatial spread, concentration, non-extensivity.
+  Single metric for overall complexity comparison.
+
+Physical Interpretation:
+  Lower entropy → coherent, localized structures (kink)
+  Higher entropy → spread-out, dispersed fields (linear wave)
+  Oscillating entropy → periodic dynamics (breather)
+  Complex entropy evolution → nonlinear interactions (collision)
