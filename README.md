@@ -1,6 +1,6 @@
 # Supplementary Data Analysis Scripts: "`amangkurat`: A Python library for symplectic pseudo-spectral solution of the idealized (1+1)D nonlinear Klein-Gordon equation"
 
-
+[![DOI](https://zenodo.org/badge/1097858665.svg)](https://doi.org/10.5281/zenodo.17625800)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains supplementary data analysis scripts for processing and visualizing outputs from the `amangkurat` solver.
