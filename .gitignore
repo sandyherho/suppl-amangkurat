@@ -3,6 +3,12 @@
 model_outputs/*.nc
 *.nc
 
+# Output files (figures and stats)
+*.png
+*.eps
+*.pdf
+*.txt
+
 # Output directories  
 ../stats/
 stats/
